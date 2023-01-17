@@ -9,9 +9,6 @@ public class Main {
         System.out.println("Mi nombre es: "+persona.getNombre());
         System.out.println("Mi edad es: "+persona.getEdad());
         System.out.println("Mi telefono es: "+persona.getTelefono());
-
-
-
     }
 }
 
@@ -19,7 +16,6 @@ public class Main {
         private int edad;
         private String nombre;
         private int telefono;
-
 
     public void setEdad(int edad){
         this.edad = edad;
